@@ -1,7 +1,7 @@
 # VBA of Wall Street
 
 ## Overview of Project
-This is an Excell Macro designed to analyze the potential benefit of diferent stocks from 2017-2018, comparing them by daily volume and % of profit. 
+This is an Excel Macro designed to analyze the potential benefit of different stocks from 2017-2018, comparing them by daily volume and % of profit. 
 
 ## Results
 ### 2017 
@@ -36,10 +36,10 @@ This is an Excell Macro designed to analyze the potential benefit of diferent st
 |TERP|	151,434,700|	-5.0%|
 |VSLR|	136,539,100|	-3.5%|
 
-We can clearly see that there´s a substantial diferrence between the performance of the stock market regarding the green energy companys between 2017 and 2018, 2017 was a great year for most of this stocks, the least favored stock dropped by just -7.9%, nothing to worry if you are a long term investor. In the other hand, 2018, was really tough for all the stocks, for the ones that lost value there´s an avarage drop of -26%, and that should worry you even if you go long term. 
+We can clearly see that there´s a substantial difference between the performance of the stock market regarding the green energy companies between 2017 and 2018, 2017 was a great year for most of this stocks, the least favored stock dropped by just -7.9%, nothing to worry if you are a long term investor. In the other hand, 2018, was really tough for all the stocks, for the ones that lost value there´s an average drop of -26%, and that should worry you even if you go long term. 
 
 This macro was refactored from a 1st attempt to one that performed better;
-In the original Macro we had the following running times for our analysis 
+In the original Macro we had the following running times for our analysis
 
 ![alt text](https://github.com/MauricioIQA/Module-2/blob/main/2017%20Run%20time%20Before.PNG)
 
@@ -51,7 +51,7 @@ And then, when we refactor it
 
 ![alt text](https://github.com/MauricioIQA/Module-2/blob/main/VBA_Challenge_2018.PNG)
 
-The main difference between the 2 codes was that in the firts one, we look trough all the tickers for each ticker in the list and in the second code we take the information for all the tickers in a simple run. 
+The main difference between the 2 codes was that in the first one, we look through all the tickers for each ticker in the list and in the second code we take the information for all the tickers in a simple run.
 
 ### First Attempt
 ``` 
@@ -252,6 +252,9 @@ End Sub
 ```
 
 ## Summary
+
 What are the advantages or disadvantages of refactoring code?
-One of the greatest andvantage with refactoring is that for a lot of the problems you encounter there´s a really big chance that others have faced the same problem, therefore, there's a big chance that if you google it you will find the solution or something that will work for you if you make some sligth changes, but this is also risky because maybe the code you find works for you but you dont know how it works and that can be problematic especially if you want to use the code for other aplications 
+One of the greatest advantage with refactoring is that for a lot of the problems you encounter there´s a really big chance that others have faced the same problem, therefore, there's a big chance that if you google it you will find the solution or something that will work for you if you make some slight changes, but this is also risky because maybe the code you find works for you but you don’t know how it works and that can be problematic especially if you want to use the code for other applications 
+
 How do these pros and cons apply to refactoring the original VBA script?
+In this case what is more evident is that we found a better solution to something we had, that’s also something you can get from refactoring, you can actually find code that helps you online and maybe make your own code from copied pieces of code, refactoring is a way of making your own code.  
